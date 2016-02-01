@@ -24,15 +24,10 @@ Example Session:
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
 
-temperature = float(input("What is the temperature outside? "))
-weather = input("Is it raining or sunny outside? ")
-weather = weather.lower() # change to lower case
-if temperature < 55 and weather == "raining":
-    print("You should bring a warm raincoat.")
-elif temperature < 55 and weather == "sunny":
-    print("You should bring a fleece.")
-elif temperature >= 55 and weather == "raining":
-    print("You should bring an umbrella.")
-else: # the only combination left is sunny and temperature >= 55
-    print("You should bring sunglasses.")
+name= import('Hello, what is your name?')
+month= import('Hi ' +name+ ', what was the name of the month you were born in?')
