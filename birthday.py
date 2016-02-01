@@ -31,11 +31,11 @@ todaydate = datetime.today().day
 
 name= input('Hello, what is your name?')
 month= input('Hi ' +name+ ', what was the name of the month you were born in?')
-month= ['thing','January','Febraury','March','April','May','June','July','August','September','October','November','December']
+list= ['thing','January','Febraury','March','April','May','June','July','August','September','October','November','December']
 year= input('And what year were you born in, '+name+'?')
 day= input('And the day?')
 
-if month==month.index'October' and day==31:
+if month==month_name[list.index('October')] and day==31:
     print('You were born on Halloween!')
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
