@@ -39,4 +39,4 @@ if month==month_name[list.index('October')] and day==31:
     print('You were born on Halloween!')
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
-print(month_name[2])
+print(month_name[0])
