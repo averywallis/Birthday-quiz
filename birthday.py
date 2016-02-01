@@ -43,10 +43,10 @@ if month==todaymonth and day==todayday:
 if year < 1980:
     if month==winter:
 if year >= 1980 and <= 1989:
-        
+    
 if year >=1990 and <= 1999:
-        
+    
 if year >= 200 nad <= todayyear:
-        
+    
 print(month_name[2])
 print(month_name[list.index('October')])
