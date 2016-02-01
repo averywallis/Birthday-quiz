@@ -28,9 +28,10 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
+todayyear= datetime.today().year
 
 name= input('Hello, what is your name?')
-month= str(input('Hi ' +name+ ', what was the name of the month you were born in?'))
+month= input('Hi ' +name+ ', what was the name of the month you were born in?')
 list= ['thing','January','Febraury','March','April','May','June','July','August','September','October','November','December']
 year= input('And what year were you born in, '+name+'?')
 day= input('And the day?')
@@ -39,5 +40,13 @@ if month==month_name[list.index('October')] and day==31:
     print('You were born on Halloween!')
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
+if year < 1980:
+    if month==winter
+if year >= 1980 and <= 1989:
+    
+if year >=1990 and <= 1999:
+    
+if year >= 200 nad <= todayyear:
+    
 print(month_name[2])
 print(month_name[list.index('October')])
