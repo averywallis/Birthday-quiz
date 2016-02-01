@@ -29,5 +29,5 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-name= import('Hello, what is your name?')
-month= import('Hi ' +name+ ', what was the name of the month you were born in?')
+name= input('Hello, what is your name?')
+month= input('Hi ' +name+ ', what was the name of the month you were born in?')
