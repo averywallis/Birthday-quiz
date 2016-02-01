@@ -34,7 +34,7 @@ month= input('Hi ' +name+ ', what was the name of the month you were born in?')
 year= input('And what year were you born in, '+name+'?')
 day= input('And the day?')
 
-if month==october and day==31:
+if month==10 and day==31:
     print('You were born on Halloween!')
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
