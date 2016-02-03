@@ -42,7 +42,7 @@ if month in ['October'] and day==31:
 
 elif month==todaymonth and day==todayday:
     print('Happy birthday!')
-if year < 1980:
+elif year < 1980:
     if month in ['December', 'January', 'February']:
         print(name + ', you are a winter baby of the stone age.')
     if month in ['March', 'April', 'May']:
@@ -51,7 +51,7 @@ if year < 1980:
         print(name + ', you are a summer baby of the stone age.')
     if month in ['September', 'October', 'November', 'December']:
         print(name + ', you are a fall baby of the stone age.')
-if year >= 1980 and year <= 1989:
+elif year >= 1980 and year <= 1989:
     if month in ['December', 'January', 'February']:
         print(name + ', you are a winter baby of the eighties.')
     if month in ['March', 'April', 'May']:
