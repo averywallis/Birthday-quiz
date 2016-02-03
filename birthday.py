@@ -42,7 +42,7 @@ if month=="October" and day==31:
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
 if year < 1980:
-    if month==winter:
+    if month in ['December', 'January', 'February':
         print(name + ', you are a winter baby of the stone age.')
     if month==spring:
         print(name + ', you are a spring baby of the stone age.')
