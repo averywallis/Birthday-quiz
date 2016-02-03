@@ -42,13 +42,13 @@ elif month==month_name[todaymonth] and day==todaydate:
     print('Happy birthday!')
 elif year < 1980:
     if month in ['December', 'January', 'February']:
-        print(name + ', you are a winter baby of the stone age.')
+        print(name + ', you are a winter baby of the Stone age.')
     if month in ['March', 'April', 'May']:
-        print(name + ', you are a spring baby of the stone age.')
+        print(name + ', you are a spring baby of the Stone age.')
     if month in ['June', 'July', 'August']:
-        print(name + ', you are a summer baby of the stone age.')
+        print(name + ', you are a summer baby of the Stone age.')
     if month in ['September', 'October', 'November', 'December']:
-        print(name + ', you are a fall baby of the stone age.')
+        print(name + ', you are a fall baby of the Stone age.')
 elif year >= 1980 and year <= 1989:
     if month in ['December', 'January', 'February']:
         print(name + ', you are a winter baby of the eighties.')
