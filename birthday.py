@@ -42,7 +42,7 @@ if month==todaymonth and day==todayday:
     print('Happy birthday!')
 if year < 1980:
     if month==winter:
-        print(name+ ", you are a winter baby of the stone age.')
+        print(name + ', you are a winter baby of the stone age.')
 if year >= 1980 and year <= 1989:
     print('thing')
 if year >=1990 and year <= 1999:
