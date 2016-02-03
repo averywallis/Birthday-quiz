@@ -53,14 +53,26 @@ elif year >= 1980 and year <= 1989:
     if month in ['December', 'January', 'February']:
         print(name + ', you are a winter baby of the eighties.')
     if month in ['March', 'April', 'May']:
-        print(name + ', you are a spring baby of the stone age.')
+        print(name + ', you are a spring baby of the eighties.')
     if month in ['June', 'July', 'August']:
-        print(name + ', you are a summer baby of the stone age.')
+        print(name + ', you are a summer baby of the eighties.')
     if month in ['September', 'October', 'November', 'December']:
-        print(name + ', you are a fall baby of the stone age.')
-if year >=1990 and year <= 1999:
-    print('stuff')
-if year >= 200 and year<= todayyear:
-    print('right')
-print(todaymonth)
-print(month_name[list.index('October')])
+        print(name + ', you are a fall baby of the eighties.')
+elif year >=1990 and year <= 1999:
+    if month in ['December', 'January', 'February']:
+        print(name + ', you are a winter baby of the nineties.')
+    if month in ['March', 'April', 'May']:
+        print(name + ', you are a spring baby of the nineties.')
+    if month in ['June', 'July', 'August']:
+        print(name + ', you are a summer baby of the nineties.')
+    if month in ['September', 'October', 'November', 'December']:
+        print(name + ', you are a fall baby of the nineties.')
+elif year >= 2000 and year<= todayyear:
+    if month in ['December', 'January', 'February']:
+        print(name + ', you are a winter baby of the two thousands.')
+    if month in ['March', 'April', 'May']:
+        print(name + ', you are a spring baby of the two thousands.')
+    if month in ['June', 'July', 'August']:
+        print(name + ', you are a summer baby of the two thousands.')
+    if month in ['September', 'October', 'November', 'December']:
+        print(name + ', you are a fall baby of the two thousands.')
