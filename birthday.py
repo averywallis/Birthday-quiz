@@ -42,13 +42,13 @@ if month=="October" and day==31:
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
 if year < 1980:
-    if month in ['December', 'January', 'February':
+    if month in ['December', 'January', 'February']:
         print(name + ', you are a winter baby of the stone age.')
-    if month==spring:
+    if month in ['March', 'April', 'May']
         print(name + ', you are a spring baby of the stone age.')
-    if month==summer:
+    if month in ['June', 'July', 'August']:
         print(name + ', you are a summer baby of the stone age.')
-    if month==fall:
+    if month in ['September', 'October', 'November', 'December']:
         print(name + ', you are a fall baby of the stone age.')
 if year >= 1980 and year <= 1989:
     print('thing')
