@@ -34,7 +34,7 @@ name= input('Hello, what is your name? ')
 month= input('Hi ' +name+ ', what was the name of the month you were born in? ')
 list= ['thing','January','Febraury','March','April','May ','June','July','August','September','October','November','December']
 year= int(input('And what year were you born in, '+name+'? '))
-day= int(input('And the day?' ))
+day= int(input('And the day? '))
 
 if month in ['October'] and day==31:
         print('You were born on Halloween!')
