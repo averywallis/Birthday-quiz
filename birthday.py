@@ -42,11 +42,11 @@ if month==todaymonth and day==todayday:
     print('Happy birthday!')
 if year < 1980:
     if month==winter:
-        if year >= 1980 and <= 1989:
+        if year >= 1980 and year <= 1989:
     
-        if year >=1990 and <= 1999:
+        if year >=1990 and year <= 1999:
     
-        if year >= 200 nad <= todayyear:
+        if year >= 200 and year<= todayyear:
     
 print(month_name[2])
 print(month_name[list.index('October')])
