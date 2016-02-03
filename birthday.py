@@ -44,7 +44,7 @@ if month==todaymonth and day==todayday:
 if year < 1980:
     if month in ['December', 'January', 'February']:
         print(name + ', you are a winter baby of the stone age.')
-    if month in ['March', 'April', 'May']
+    if month in ['March', 'April', 'May']:
         print(name + ', you are a spring baby of the stone age.')
     if month in ['June', 'July', 'August']:
         print(name + ', you are a summer baby of the stone age.')
