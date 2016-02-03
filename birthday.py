@@ -47,7 +47,7 @@ elif year < 1980:
         print(name + ', you are a spring baby of the Stone age.')
     if month in ['June', 'July', 'August']:
         print(name + ', you are a summer baby of the Stone age.')
-    if month in ['September', 'October', 'November', 'December']:
+    if month in ['September', 'October', 'November']:
         print(name + ', you are a fall baby of the Stone age.')
 elif year >= 1980 and year <= 1989:
     if month in ['December', 'January', 'February']:
@@ -56,7 +56,7 @@ elif year >= 1980 and year <= 1989:
         print(name + ', you are a spring baby of the eighties.')
     if month in ['June', 'July', 'August']:
         print(name + ', you are a summer baby of the eighties.')
-    if month in ['September', 'October', 'November', 'December']:
+    if month in ['September', 'October', 'November']:
         print(name + ', you are a fall baby of the eighties.')
 elif year >=1990 and year <= 1999:
     if month in ['December', 'January', 'February']:
@@ -65,7 +65,7 @@ elif year >=1990 and year <= 1999:
         print(name + ', you are a spring baby of the nineties.')
     if month in ['June', 'July', 'August']:
         print(name + ', you are a summer baby of the nineties.')
-    if month in ['September', 'October', 'November', 'December']:
+    if month in ['September', 'October', 'November']:
         print(name + ', you are a fall baby of the nineties.')
 elif year >= 2000 and year<= todayyear:
     if month in ['December', 'January', 'February']:
@@ -74,5 +74,5 @@ elif year >= 2000 and year<= todayyear:
         print(name + ', you are a spring baby of the two thousands.')
     if month in ['June', 'July', 'August']:
         print(name + ', you are a summer baby of the two thousands.')
-    if month in ['September', 'October', 'November', 'December']:
+    if month in ['September', 'October', 'November']:
         print(name + ', you are a fall baby of the two thousands.')
