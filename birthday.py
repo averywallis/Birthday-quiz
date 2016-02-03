@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Avery Wallis
-Credit: None so far
+Credit: Payton Stearns
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -36,7 +36,8 @@ list= ['thing','January','Febraury','March','April','May','June','July','August'
 year= int(input('And what year were you born in, '+name+'?'))
 day= int(input('And the day?'))
 
-if month==month_name[list.index('October')] and day==31:
+month_name[list.index('October')]
+if month=="October" and day==31:
     print('You were born on Halloween!')
 if month==todaymonth and day==todayday:
     print('Happy birthday!')
