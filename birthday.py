@@ -34,7 +34,7 @@ name= input('Hello, what is your name?')
 month= input('Hi ' +name+ ', what was the name of the month you were born in?')
 list= ['thing','January','Febraury','March','April','May','June','July','August','September','October','November','December']
 year= int(input('And what year were you born in, '+name+'?'))
-day= input('And the day?')
+day= int(input('And the day?'))
 
 if month==month_name[list.index('October')] and day==31:
     print('You were born on Halloween!')
@@ -43,6 +43,12 @@ if month==todaymonth and day==todayday:
 if year < 1980:
     if month==winter:
         print(name + ', you are a winter baby of the stone age.')
+    if month==spring:
+        print(name + ', you are a spring baby of the stone age.')
+    if month==summer:
+        print(name + ', you are a summer baby of the stone age.')
+    if month==fall:
+        print(name + ', you are a fall baby of the stone age.')
 if year >= 1980 and year <= 1989:
     print('thing')
 if year >=1990 and year <= 1999:
