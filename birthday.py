@@ -38,8 +38,9 @@ day= int(input('And the day?'))
 
 month_name[list.index('October')]
 if month in ['October'] and day==31:
-    print('You were born on Halloween!')
-if month==todaymonth and day==todayday:
+        print('You were born on Halloween!')
+
+elif month==todaymonth and day==todayday:
     print('Happy birthday!')
 if year < 1980:
     if month in ['December', 'January', 'February']:
@@ -51,7 +52,14 @@ if year < 1980:
     if month in ['September', 'October', 'November', 'December']:
         print(name + ', you are a fall baby of the stone age.')
 if year >= 1980 and year <= 1989:
-    print('thing')
+    if month in ['December', 'January', 'February']:
+        print(name + ', you are a winter baby of the eighties.')
+    if month in ['March', 'April', 'May']:
+        print(name + ', you are a spring baby of the stone age.')
+    if month in ['June', 'July', 'August']:
+        print(name + ', you are a summer baby of the stone age.')
+    if month in ['September', 'October', 'November', 'December']:
+        print(name + ', you are a fall baby of the stone age.')
 if year >=1990 and year <= 1999:
     print('stuff')
 if year >= 200 and year<= todayyear:
