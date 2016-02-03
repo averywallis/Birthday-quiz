@@ -56,5 +56,5 @@ if year >=1990 and year <= 1999:
     print('stuff')
 if year >= 200 and year<= todayyear:
     print('right')
-print(month_name[2])
+print(todaymonth)
 print(month_name[list.index('October')])
